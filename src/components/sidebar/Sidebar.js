@@ -1,5 +1,6 @@
 import React from "react";
 import NavigateLink from "./NavigateLink";
+import { Profile } from "./Profile";
 
 export const Sidebar = () => {
   const links = [
@@ -41,7 +42,9 @@ export const Sidebar = () => {
             );
           })}
         </div>
-        <div className="">jack</div>
+        <div className="">
+          <Profile/>
+        </div>
       </div>
     </div>
   );
