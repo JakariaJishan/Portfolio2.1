@@ -6,36 +6,43 @@ export const Sidebar = () => {
     {
       serial: "01",
       linkName: "Work",
-      path:'/'
+      path: "/",
     },
     {
       serial: "02",
       linkName: "Articles",
-      path:'/articles'
+      path: "/articles",
     },
     {
       serial: "03",
       linkName: "Contact",
-      path:'/contact'
+      path: "/contact",
     },
   ];
   return (
     <div className=" w-full">
-      <h1 className="text-6xl">
-        Hello, I'm <br /> Jakaria Jishan
-      </h1>
-      <p className="leading-7 my-5 text-[#777778]">
-        I'm a software engineer. I create interactive web experiences using
-        frontend technology. I am interested in user experience, accessibility,
-        design systems, gaming, web3 and web animations.
-      </p>
-      {links.map((link) => {
-        return (
-          <div key={link.serial} className="">
-            <NavigateLink link={link} />
-          </div>
-        );
-      })}
+      <div className="flex flex-col h-screen justify-between">
+        <div>
+          <h1 className="text-6xl">
+            Hello, I'm <br /> Jakaria Jishan
+          </h1>
+          <p className=" text-sm leading-7 my-5 text-[#777778]">
+            I'm a software engineer. I create interactive web experiences using
+            frontend technology. I am interested in user experience,
+            accessibility, design systems, gaming, web3 and web animations.
+          </p>
+        </div>
+        <div className="">
+          {links.map((link) => {
+            return (
+              <div key={link.serial} className="my-2">
+                <NavigateLink link={link} />
+              </div>
+            );
+          })}
+        </div>
+        <div className="">jack</div>
+      </div>
     </div>
   );
 };

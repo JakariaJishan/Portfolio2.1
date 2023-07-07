@@ -5,14 +5,14 @@ const NavigateLink = ({ link }) => {
     const location = useLocation()
     const isActive = location.pathname === link.path
   return (
-    <div>
+    <div className="inline-block group">
       <NavLink
         to={link.path}
-        className={`${isActive? 'text-white':'text-[#777778]'}`}
+        className={`${isActive? 'text-white':'text-[#777778]'} group-hover:text-white`}
       >
-        <div className="flex items-center">
+        <div className="flex items-center text-sm">
           <p>{link.serial}</p>
-          <hr className={`mx-2 w-14 ${isActive ? 'bg-white' : 'bg-[#777778]'} border-0 h-px`} />
+          <hr className={` transition-width ease-out mx-2 w-14 hover:w-28 group-hover:w-28 group-hover:bg-white  ${isActive ? 'bg-white w-28' : 'bg-[#777778]'} border-0 h-px duration-300 `} />
           <p>{link.linkName}</p>
         </div>
       </NavLink>

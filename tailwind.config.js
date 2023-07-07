@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'oxygen': ['"Oxygen"', 'sans-serif'],
       },
+      transitionProperty: {
+        'width': 'width'
+    },
     },
   },
   plugins: [],

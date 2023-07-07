@@ -4,7 +4,7 @@ import { Sidebar } from "../sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-start">
         <Sidebar />
         <MainBar />
     </div>
