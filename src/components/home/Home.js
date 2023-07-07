@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import MainBar from "../mainHome/MainBar";
+import { Sidebar } from "../sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className=" w-11/12 mx-auto">
+      <div className="flex">
+        <Sidebar />
+        <MainBar />
+      </div>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
