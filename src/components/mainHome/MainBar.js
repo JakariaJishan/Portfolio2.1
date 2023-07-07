@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const MainBar = () => {
-  return (
-    <div className='bg-orange-400'>
-        hello
-    </div>
-  )
-}
+  return <div className=" w-full">hello</div>;
+};
 
-export default MainBar
+export default MainBar;

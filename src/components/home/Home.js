@@ -4,11 +4,9 @@ import { Sidebar } from "../sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div className=" w-11/12 mx-auto">
-      <div className="flex">
+    <div className="flex justify-between items-center">
         <Sidebar />
         <MainBar />
-      </div>
     </div>
   );
 };
