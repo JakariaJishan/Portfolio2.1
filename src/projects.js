@@ -13,6 +13,45 @@ export const featuredProjects = [
         liveLink:"live",
         sourceCode:"code"
     },
+   
+]
+
+export const workingProjects = [
+    {
+        title :"Ruby",
+        stacks: ["ruby","reails"],
+        desc:"des",
+        liveLink:"live",
+        sourceCode:"code"
+    },
+    {
+        title :"Ruby2",
+        stacks: ["ruby","reails"],
+        desc:"des",
+        liveLink:"live",
+        sourceCode:"code"
+    },
+    {
+        title :"Ruby2",
+        stacks: ["ruby","reails"],
+        desc:"des",
+        liveLink:"live",
+        sourceCode:"code"
+    },
+    {
+        title :"Ruby2",
+        stacks: ["ruby","reails"],
+        desc:"des",
+        liveLink:"live",
+        sourceCode:"code"
+    },
+    {
+        title :"Ruby2",
+        stacks: ["ruby","reails"],
+        desc:"des",
+        liveLink:"live",
+        sourceCode:"code"
+    },
     {
         title :"Ruby2",
         stacks: ["ruby","reails"],
