@@ -11,6 +11,11 @@ export const Sidebar = () => {
     },
     {
       serial: "02",
+      linkName: "Skills",
+      path: "/skills",
+    },
+    {
+      serial: "03",
       linkName: "Articles",
       path: "/articles",
     },
