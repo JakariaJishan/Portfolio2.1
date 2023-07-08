@@ -4,8 +4,8 @@ import RenderFeature from "./RenderFeature";
 
 const FeaturedProject = () => {
   return (
-    <div className="p-10 overflow-scroll no-scrollbar">
-        <h5 className="text-[#A0A8A4] font-bold text-md mb-5 ">Featured</h5>
+    <div className=" overflow-scroll no-scrollbar h-screen">
+        <h5 className="text-[#A0A8A4] font-bold text-md pt-10 pb-5 px-10 bg-[#151515] sticky top-0 z-50">Featured</h5>
       {featuredProjects.map((featuredProject) => {
         return <RenderFeature featuredProject={featuredProject} />;
       })}

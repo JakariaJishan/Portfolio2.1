@@ -4,7 +4,7 @@ import { Sidebar } from "../sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex">
         <Sidebar />
         <MainBar />
     </div>

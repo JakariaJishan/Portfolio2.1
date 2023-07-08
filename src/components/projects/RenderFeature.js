@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const RenderFeature = ({ featuredProject }) => {
   const { title, stacks, desc, liveLink, sourceCode } = featuredProject;
   return (
-    <div>
-      <div className="p-10 my-3 bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10">
+    <div className="mx-10 my-2">
+      <div className="p-10 bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10">
         <h2 className="text-xl font-semibold">{title}</h2>
         <div className="flex gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
           {stacks.map((item, index) => {
