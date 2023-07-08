@@ -1,14 +1,6 @@
 import React from "react";
 
 const SkillsList = () => {
-  //     - Front-end development: ReactJS | ReduxJS | NextJS | JQuery | WordPress
-  // - Back-end development: NodeJS | ExpressJS | Ruby on Rails
-  // - Test: Rspec | Jest |
-  // - Databases: Postgres | MongoDB | MySql
-  // - Styling: Styled-components | SASS | CSS-in-JS | Bootstrap | Tailwind
-  // - Product management: UI design | UX Design | Prototyping | Wireframing
-  // - Tools & Methods: Git, GitHub, Heroku, Netlify, RSpec, TDD, Chrome Dev Tools.
-  // - Professional: Remote Pair-Programming, TeamWork, Mentoring.
 
   return (
     <div className="">

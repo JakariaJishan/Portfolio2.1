@@ -14,6 +14,7 @@ export const Profile = () => {
         <div>
           <Link
             to="https://github.com/JakariaJishan"
+            target="_blank"
             className="flex items-center gap-1 group text-gray-400 hover:text-white"
           >
             <BsGithub />
@@ -24,6 +25,7 @@ export const Profile = () => {
         <div>
           <Link
             to="https://www.linkedin.com/in/jakariajishan/"
+            target="_blank"
             className="flex items-center gap-1 group text-gray-400 hover:text-white"
           >
             <BsLinkedin />
@@ -38,6 +40,7 @@ export const Profile = () => {
               window.location.href = "mailto:no-reply@example.com";
               e.preventDefault();
             }}
+            target="_blank"
             className="flex items-center gap-1 group text-gray-400 hover:text-white"
           >
             <SiMaildotru />
