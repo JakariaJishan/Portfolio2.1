@@ -22,18 +22,18 @@ export const Sidebar = () => {
   ];
   return (
     <div className=" w-full">
-      <div className="flex flex-col h-screen justify-between">
-        <div>
+      <div className="flex flex-col  h-screen py-10">
+        <div className="flex-auto">
           <h1 className="text-6xl">
             Hello, I'm <br /> Jakaria Jishan
           </h1>
-          <p className=" text-sm leading-7 my-5 text-[#777778]">
+          <p className=" text-sm leading-7 my-5 text-[#777778] w-96">
             I'm a software engineer. I create interactive web experiences using
             frontend technology. I am interested in user experience,
             accessibility, design systems, gaming, web3 and web animations.
           </p>
         </div>
-        <div className="">
+        <div className="flex-auto">
           {links.map((link) => {
             return (
               <div key={link.serial} className="my-2">
@@ -42,7 +42,7 @@ export const Sidebar = () => {
             );
           })}
         </div>
-        <div className="">
+        <div className="flex-auto my-10">
           <Profile/>
         </div>
         <button class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-[118px] px-3 py-2 rounded-full text-xs flex items-center gap-2">

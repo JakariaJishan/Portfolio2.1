@@ -4,7 +4,7 @@ import { Sidebar } from "../sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div className="flex justify-between items-start gap-10 py-10">
+    <div className="flex justify-between items-start">
         <Sidebar />
         <MainBar />
     </div>
