@@ -21,13 +21,13 @@ export const Sidebar = () => {
     },
   ];
   return (
-    <div className=" w-full">
-      <div className="flex flex-col  h-screen py-10">
+    <div className=" w-2/5">
+      <div className="flex flex-col  py-10">
         <div className="flex-auto">
           <h1 className="text-6xl">
             Hello, I'm <br /> Jakaria Jishan
           </h1>
-          <p className=" text-sm leading-7 my-5 text-[#777778] w-96">
+          <p className=" text-sm leading-7 my-5 text-[#777778]">
             I'm a software engineer. I create interactive web experiences using
             frontend technology. I am interested in user experience,
             accessibility, design systems, gaming, web3 and web animations.
