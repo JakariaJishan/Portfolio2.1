@@ -22,7 +22,7 @@ export const Sidebar = () => {
   ];
   return (
     <div className=" w-full">
-      <div className="flex flex-col h-screen justify-between py-10">
+      <div className="flex flex-col h-screen justify-between">
         <div>
           <h1 className="text-6xl">
             Hello, I'm <br /> Jakaria Jishan
