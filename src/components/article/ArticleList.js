@@ -4,12 +4,12 @@ import { SlCalender } from "react-icons/sl";
 import { Link } from "react-router-dom";
 export const ArticleList = () => {
   return (
-    <div className="mx-10 my-2">
-      <h5 className="text-[#A0A8A4] font-bold text-md pt-10 pb-5  bg-[#151515] sticky top-0 z-50">
+    <div className=" ">
+      <h5 className="text-[#A0A8A4] font-bold text-md md:pt-10 py-5 md:mx-10 bg-[#151515] sticky top-0 z-50">
         Articles
       </h5>
-      <div  className=" grid grid-cols-2 mt-5" >
-        <Link to='https://medium.com/@jakariajishan006/my-journey-with-software-development-eb08b2022036' target="_blank" className="p-10  bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10">
+      <div  className=" grid grid-cols-1 md:grid-cols-2 mx-5 my-5" >
+        <Link to='https://medium.com/@jakariajishan006/my-journey-with-software-development-eb08b2022036' target="_blank" className="p-5 md:p-10  bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
           <h5 className="text-xs text-[#BEBEBE] tracking-widest">
             Software Development, Software Engineering, Computer Science,
             Porgramming

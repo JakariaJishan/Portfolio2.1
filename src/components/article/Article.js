@@ -4,7 +4,7 @@ import MainArticle from "./MainArticle";
 
 const Article = () => {
   return (
-    <div className="flex">
+    <div className="md:flex">
       <Sidebar />
       <MainArticle />
     </div>
