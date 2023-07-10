@@ -4,7 +4,7 @@ import MainContact from "./MainContact";
 
 const Contact = () => {
   return (
-    <div className="flex">
+    <div className="md:flex">
       <Sidebar />
       <MainContact />
     </div>

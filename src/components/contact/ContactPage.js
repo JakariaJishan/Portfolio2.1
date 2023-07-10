@@ -31,14 +31,14 @@ export const ContactPage = () => {
       );
   };
   return (
-    <div className="mx-10 my-2">
-      <h5 className="text-[#A0A8A4] font-bold text-md pt-10 pb-5  bg-[#151515] sticky top-0 z-50">
-        Get In Touch
+    <div className="md:mx-10 my-2">
+      <h5 className="text-[#A0A8A4] font-bold text-md md:pt-10 py-5  bg-[#151515] sticky top-0 z-50">
+        Get In Touch✋
       </h5>
       <form className="mt-5" ref={form} onSubmit={handleSubmit}>
         <div className="p-10  bg-[#1B1B1D] ">
           <div className="">
-            <label>Full Name</label>
+            <label className="text-[#777778]">Full Name</label>
             <input
               type="text"
               name="user_name"
@@ -51,7 +51,7 @@ export const ContactPage = () => {
             />{" "}
           </div>
           <div className="my-5">
-            <label>Email</label>
+            <label className="text-[#777778]">Email</label>
             <input
               type="email"
               name="user_email"
@@ -64,7 +64,7 @@ export const ContactPage = () => {
             />{" "}
           </div>
           <div className="my-5">
-            <label>Message</label>
+            <label className="text-[#777778]">Message</label>
             <textarea
               name="message"
               id="message"
