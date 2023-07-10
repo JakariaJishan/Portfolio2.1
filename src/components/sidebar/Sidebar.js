@@ -1,5 +1,7 @@
 import React from "react";
-import { LiaDownloadSolid } from 'react-icons/lia';
+import { BsArrowUpRight } from 'react-icons/bs';
+
+import { Link } from "react-router-dom";
 import NavigateLink from "./NavigateLink";
 import { Profile } from "./Profile";
 export const Sidebar = () => {
@@ -50,10 +52,9 @@ export const Sidebar = () => {
         <div className="flex-auto my-10">
           <Profile/>
         </div>
-        <button class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-[118px] px-3 py-2 rounded-full text-xs flex items-center gap-2">
-          Download CV
-          <LiaDownloadSolid className="animate-ping"/>
-        </button>
+        <Link to='https://docs.google.com/document/d/1wl3t5yFbxMvN99lc-tGVj9LW5AarmTf5azPkyd_5Gqg/edit?usp=sharing' target="_blank" class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-24 px-4 py-2 rounded-full text-xs flex items-center gap-2 uppercase">
+          Resume
+          <BsArrowUpRight className="transition ease-out duration-300 group-hover:-translate-y-1 text-md animate-ping" />        </Link>
       </div>
     </div>
   );
