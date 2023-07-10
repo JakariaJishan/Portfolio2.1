@@ -4,7 +4,7 @@ import { WorkingProject } from './WorkingProject'
 
 const Projects = () => {
   return (
-    <div className='overflow-scroll no-scrollbar h-screen'>
+    <div className='md:overflow-scroll no-scrollbar md:h-screen'>
        <FeaturedProject/>
        <WorkingProject/>
     </div>

@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const RenderWorkingProject = ({ workingProject }) => {
   const { title, stacks, desc, liveLink, sourceCode } = workingProject;
   return (
-    <div className=" w-full ">
-      <div className="p-10 bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
+    <div className=" w-full mt-4">
+      <div className="p-5 md:p-10 bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
         <h2 className="text-xl font-semibold">{title}</h2>
         <div className="flex gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
           {stacks.map((item, index) => {
