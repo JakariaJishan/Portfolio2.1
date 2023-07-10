@@ -5,7 +5,7 @@ import RenderFeature from "./RenderFeature";
 const FeaturedProject = () => {
   return (
     <div className="">
-        <h5 className="text-[#A0A8A4] font-bold text-md md:pt-10 py-5 md:px-10 bg-[#151515] sticky top-0 z-50">Featured🔥</h5>
+        <h5 className="text-[#A0A8A4] font-bold text-md md:pt-10 py-5 md:px-10 bg-[#151515] sticky top-0 z-50 ">Featured🔥</h5>
       {featuredProjects.map((featuredProject) => {
         return <RenderFeature featuredProject={featuredProject} />;
       })}

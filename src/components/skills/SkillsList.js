@@ -4,11 +4,11 @@ const SkillsList = () => {
 
   return (
     <div className="">
-      <h5 className="text-[#A0A8A4] font-bold text-md pt-10 pb-5 px-10 bg-[#151515] sticky top-0 z-50">
-        Skills
+      <h5 className="text-[#A0A8A4] font-bold text-md md:pt-10 py-5 md:px-10 bg-[#151515] sticky top-0 z-50">
+        Skills💪
       </h5>
-      <div className="mx-10 leading-10 bg-[#1B1B1D]">
-        <div className="p-10 text-[#777778]">
+      <div className="md:mx-10 leading-10 bg-[#1B1B1D]">
+        <div className="p-5 md:p-10 text-[#777778]">
           - Front-end development: ReactJS | ReduxJS | NextJS | JQuery |
           WordPress <br />
           - Back-end development: NodeJS | ExpressJS | Ruby on Rails <br /> -

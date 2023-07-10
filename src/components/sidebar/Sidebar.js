@@ -43,7 +43,7 @@ export const Sidebar = () => {
         <div className="flex-auto">
           {links.map((link) => {
             return (
-              <div key={link.serial} className="hidden md:block my-2">
+              <div key={link.serial} className="block my-2">
                 <NavigateLink link={link} />
               </div>
             );
