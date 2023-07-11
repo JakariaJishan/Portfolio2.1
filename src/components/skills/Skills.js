@@ -4,7 +4,7 @@ import MainSkill from './MainSkill';
 
 const Skills = () => {
   return (
-    <div className="md:flex">
+    <div className="md:flex gap-5">
     <Sidebar />
     <MainSkill />
 </div>

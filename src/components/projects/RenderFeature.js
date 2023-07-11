@@ -20,6 +20,8 @@ const RenderFeature = ({ featuredProject }) => {
         </div>
         <p className="text-sm text-[#777778] my-5">{desc}</p>
         <div className="flex items-center gap-5 text-xs">
+          {
+            liveLink ? 
           <Link
             to={liveLink}
             target="_blank"
@@ -27,7 +29,8 @@ const RenderFeature = ({ featuredProject }) => {
           >
             <AiFillEye />
             Live
-          </Link>
+          </Link> : 'not available'
+          }
           <Link
             to={sourceCode}
             target="_blank"

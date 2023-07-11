@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const RenderWorkingProject = ({ workingProject }) => {
   const { title, stacks, desc, liveLink, sourceCode } = workingProject;
+  console.log(liveLink);
   return (
     <div className=" w-full mt-4">
       <div className="p-5 md:p-10 bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
@@ -20,14 +21,22 @@ const RenderWorkingProject = ({ workingProject }) => {
         </div>
         <p className="text-sm text-[#777778] my-5">{desc}</p>
         <div className="flex items-center gap-5 text-xs">
-          <Link
+          {
+            liveLink? <Link
             to={liveLink}
             target="_blank"
             className="flex items-center text-[#777778] hover:text-white gap-0.5"
           >
             <AiFillEye />
             Live
-          </Link>
+          </Link> : <p
+            className="flex items-center text-[#777778]  gap-0.5"
+          >
+            <AiFillEye />
+            Not Available
+          </p>
+          }
+         
           <Link
             to={sourceCode}
             target="_blank"
