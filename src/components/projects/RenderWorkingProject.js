@@ -22,6 +22,7 @@ const RenderWorkingProject = ({ workingProject }) => {
         <div className="flex items-center gap-5 text-xs">
           <Link
             to={liveLink}
+            target="_blank"
             className="flex items-center text-[#777778] hover:text-white gap-0.5"
           >
             <AiFillEye />
@@ -29,6 +30,7 @@ const RenderWorkingProject = ({ workingProject }) => {
           </Link>
           <Link
             to={sourceCode}
+            target="_blank"
             className="flex items-center gap-0.5 text-[#777778] hover:text-white"
           >
             <FaCodeBranch />

@@ -7,7 +7,7 @@ import Skills from "./components/skills/Skills";
 function App() {
   return (
     <div className="bg-[#151515] text-white font-oxygen ">
-      <div className="w-11/12 mx-auto">
+      <div className="max-w-[1440px] w-11/12 mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
