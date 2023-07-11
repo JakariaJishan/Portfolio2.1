@@ -28,14 +28,14 @@ export const Sidebar = () => {
     },
   ];
   return (
-    <div className=" md:w-2/5">
-      <div className="md:flex flex-col md:h-screen py-5 md:py-10">
+    <div className=" md:w-2/5 md:h-screen">
+      <div className="md:flex flex-col py-5 md:py-10">
         <div className="flex-auto">
           <h1 className="text-5xl md:text-6xl">
             Hello, I'm <br /> Jakaria Jishan
           </h1>
           <p className="text-md md:text-sm leading-7 my-5 text-[#777778]">
-          a <span className="text-white">full-stack software engineer</span> looking to specialize in an exemplary and innovative approach to coding. As a software developer at <span className="text-white">Microverse</span>, an online training school, I code for over 8 hours a day, work with tight deadlines, and quickly learn new languages. I also <span className="text-white">collaborate remotely with developers</span> from all around the world every day. Over the last several months, I have completed <span className="text-white">dozens of projects</span>, each accompanied by its code, syntax, scope, and function.
+          <span className="text-white">Full-stack Software Developer</span> looking to specialize in an exemplary and innovative approach to coding. As a software developer at <span className="text-white">Microverse</span>, an online training school, I code for over 8 hours a day, work with tight deadlines, and quickly learn new languages. I also <span className="text-white">collaborate remotely with developers</span> from all around the world every day. Over the last several months, I have completed <span className="text-white">dozens of projects</span>, each accompanied by its code, syntax, scope, and function.
           </p>
         </div>
         <div className="flex-auto">
