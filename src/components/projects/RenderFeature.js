@@ -9,7 +9,7 @@ const RenderFeature = ({ featuredProject }) => {
     <div className="mx-3 md:mx-10 my-2">
       <div className="p-5 mt-4 md:p-10 bg-[#1B1B1D] transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
         <h2 className="text-xl font-semibold">{title}</h2>
-        <div className="flex gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
+        <div className="flex flex-wrap gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
           {stacks.map((item, index) => {
             return (
               <p>
