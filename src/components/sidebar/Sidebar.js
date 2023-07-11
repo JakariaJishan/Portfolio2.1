@@ -35,9 +35,7 @@ export const Sidebar = () => {
             Hello, I'm <br /> Jakaria Jishan
           </h1>
           <p className="text-md md:text-sm leading-7 my-5 text-[#777778]">
-            I'm a software engineer. I create interactive web experiences using
-            frontend technology. I am interested in user experience,
-            accessibility, design systems, gaming, web3 and web animations.
+          a <span className="text-white">full-stack software engineer</span> looking to specialize in an exemplary and innovative approach to coding. As a software developer at <span className="text-white">Microverse</span>, an online training school, I code for over 8 hours a day, work with tight deadlines, and quickly learn new languages. I also <span className="text-white">collaborate remotely with developers</span> from all around the world every day. Over the last several months, I have completed <span className="text-white">dozens of projects</span>, each accompanied by its code, syntax, scope, and function.
           </p>
         </div>
         <div className="flex-auto">
