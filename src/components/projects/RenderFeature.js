@@ -12,7 +12,7 @@ const RenderFeature = ({ featuredProject }) => {
         <div className="flex flex-wrap gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
           {stacks.map((item, index) => {
             return (
-              <p>
+              <p key={index}>
                 {item} {index !== stacks.length - 1 && <span>|</span>}
               </p>
             );

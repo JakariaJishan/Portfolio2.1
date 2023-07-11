@@ -11,8 +11,8 @@ export const WorkingProject = () => {
         </h5>
         <div className=" grid grid-cols-1 sm:grid-cols-2 gap-x-4 mx-3 md:mx-10 md:my-5">
 
-        {workingProjects.map((workingProject) => {
-            return <RenderWorkingProject workingProject={workingProject} />;
+        {workingProjects.map((workingProject, index) => {
+            return <RenderWorkingProject key={index} workingProject={workingProject} />;
         })}
         </div>
       </div>
