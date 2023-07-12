@@ -7,7 +7,7 @@ const RenderWorkingProject = ({ workingProject }) => {
   const { title, stacks, desc, liveLink, sourceCode,img } = workingProject;
   return (
     <div className="w-full mt-4 p-5 bg-[#1B1B1D]  transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
-      <img src={img} alt="project" className="h-60 w-full"/>
+      <img src={img} alt="project" className="h-40 w-full"/>
       <h2 className="text-xl font-semibold my-2">{title}</h2>
       <div className="flex flex-wrap gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
         {stacks.map((item, index) => {
