@@ -28,10 +28,10 @@ export const Sidebar = () => {
     },
   ];
   return (
-    <div className=" md:w-2/5 md:h-screen">
+    <div className=" md:w-2/5 ">
       <div className="md:flex flex-col py-5 md:py-10">
         <div className="flex-auto">
-          <h1 className="text-5xl md:text-6xl">
+          <h1 className="text-6xl">
             Hello, I'm <br /> Jakaria Jishan
           </h1>
           <p className="text-md md:text-sm leading-7 my-5 text-[#777778]">

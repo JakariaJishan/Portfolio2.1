@@ -9,6 +9,7 @@ export const featuredProjects = [
       "Redux",
       "TailwindCss",
     ],
+    img:'/venom.png',
     desc: "VenomPrecision is a website that lists paintball game products and accessories.User can sign in and create new product, delete a product, add reservations and so on.",
     liveLink: "https://velvety-genie-9ab88d.netlify.app/",
     sourceCode: "https://github.com/JakariaJishan/VenomPrecision-front-end",
@@ -24,6 +25,7 @@ export const featuredProjects = [
       "cancancan",
       "tailwindcss",
     ],
+    img:"/budget.png",
     desc: "Budget Buddy is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
     liveLink: "https://budget-buddy-573e.onrender.com/",
     sourceCode: "https://github.com/JakariaJishan/Budget-App",
@@ -41,6 +43,7 @@ export const workingProjects = [
   {
     title: "Blog App",
     stacks: ["ruby", "ruby on rails", "postgresql", "rspec"],
+    img:'/venom.png',
     desc: "Built with Ruby on Rails, this blog boasts a sleek and responsive design, allowing readers to easily navigate through its content",
     liveLink: null,
     sourceCode: "https://github.com/JakariaJishan/Blog-ror",
