@@ -6,7 +6,7 @@ export const Profile = () => {
   return (
     <div className="flex items-center gap-5">
       <img
-        src="https://ca.slack-edge.com/T47CT8XPG-U047GPUDEQN-88e4bb441b9d-512"
+        src="./me.jpg"
         alt="profile"
         className="w-12 h-12 rounded-full"
       />
