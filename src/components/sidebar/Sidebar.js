@@ -49,7 +49,7 @@ export const Sidebar = () => {
         <div className="flex-auto my-8 md:my-10">
           <Profile/>
         </div>
-        <Link to='https://docs.google.com/document/d/1FDWRWy_XXgcHEvMMS_2acLhKqcXYyo3P4FEDUsVoXS0/edit?usp=sharing' target="_blank" class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-24 px-4 py-2 rounded-full text-xs flex items-center gap-2 uppercase">
+        <Link to='https://drive.google.com/file/d/1BJfbWoH6ZhT9zyGYjOK7GFK_2Abibk1E/view?usp=sharing' target="_blank" class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-24 px-4 py-2 rounded-full text-xs flex items-center gap-2 uppercase">
           Resume
           <BsArrowUpRight className="transition ease-out duration-300 group-hover:-translate-y-1 text-md animate-ping" />        </Link>
       </div>
