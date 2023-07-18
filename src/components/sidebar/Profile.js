@@ -6,7 +6,7 @@ export const Profile = () => {
   return (
     <div className="flex items-center gap-5">
       <img
-        src="./me.jpg"
+        src="./me3.jpg"
         alt="profile"
         className="w-12 h-12 rounded-full"
       />
