@@ -33,8 +33,9 @@ export const Sidebar = () => {
           <h1 className="text-6xl">
             Hello, I'm <br /> Jakaria Jishan
           </h1>
+          <h2 className="text-2xl my-2 text-slate-300">Full-stack Software Developer</h2>
           <p className="text-md md:text-sm leading-7 my-5 text-[#777778]">
-          <span className="text-white">Full-stack Software Developer</span> looking to specialize in an exemplary and innovative approach to coding. As a software developer at <span className="text-white">Microverse</span>, an online training school, I code for over 8 hours a day, work with tight deadlines, and quickly learn new languages. I also <span className="text-white">collaborate remotely with developers</span> from all around the world every day. Over the last several months, I have completed <span className="text-white">dozens of projects</span>, each accompanied by its code, syntax, scope, and function.I have developed more than 17 different projects using technologies such as <span className="text-white">React, Redux, Ruby on Rails, and PostgreSQL</span>. I have a solid knowledge of Data Structure and Algorithms. 
+          <span className="text-white"></span> Looking to specialize in an exemplary and innovative approach to coding. As a software developer at <span className="text-white">Microverse</span>, an online training school, I code for over 8 hours a day, work with tight deadlines, and quickly learn new languages. I also <span className="text-white">collaborate remotely with developers</span> from all around the world every day. Over the last several months, I have completed <span className="text-white">dozens of projects</span>, each accompanied by its code, syntax, scope, and function.I have developed more than 17 different projects using technologies such as <span className="text-white">React, Redux, Ruby on Rails, and PostgreSQL</span>. I have a solid knowledge of Data Structure and Algorithms. 
           </p>
         </div>
         <div className="flex-auto">
