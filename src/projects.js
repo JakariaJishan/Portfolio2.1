@@ -9,7 +9,7 @@ export const featuredProjects = [
       "Redux",
       "TailwindCss",
     ],
-    img:'/venom.jpg',
+    img:'/venom.png',
     desc: "VenomPrecision is a website that lists paintball game products and accessories.User can sign in and create new product, delete a product, add reservations and so on.",
     liveLink: "https://velvety-genie-9ab88d.netlify.app/",
     sourceCode: "https://github.com/JakariaJishan/VenomPrecision-front-end",

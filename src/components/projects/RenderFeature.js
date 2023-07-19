@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 const RenderFeature = ({ featuredProject }) => {
   const { title, stacks, desc, liveLink, sourceCode, img } = featuredProject;
   return (
-    <div className="w-full mt-4 p-5 md:p-10 bg-[#1B1B1D]  transition ease-out hover:-translate-y-1 hover:scale-110  duration-300 hover:z-10 hover:border hover:border-[#616162]">
-      <img src={img} alt="project" className="h-40 lg:h-60 w-full" />
+    <div className="w-full mt-4  bg-[#1B1B1D]  transition ease-out hover:-translate-y-1 hover:scale-105  duration-300 hover:z-10 ">
+      <img src={img} alt="project" className="h-52 lg:h-80 w-full rounded shadow-lg" />
+      <div className="p-3 lg:p-5"> 
       <h2 className="text-xl font-semibold my-2">{title}</h2>
       <div className="flex flex-wrap gap-1.5 my-2 text-xs tracking-widest text-[#AFAFAF] uppercase">
         {stacks.map((item, index) => {
@@ -44,6 +45,7 @@ const RenderFeature = ({ featuredProject }) => {
           <FaCodeBranch />
           Code
         </Link>
+        </div>
       </div>
     </div>
   );

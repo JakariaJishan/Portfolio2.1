@@ -27,8 +27,8 @@ export const Sidebar = () => {
     },
   ];
   return (
-    <div className=" md:w-2/5 ">
-      <div className="md:flex flex-col py-5 md:py-10">
+    <div className=" md:w-6/12 ">
+      <div className="md:flex flex-col p-5 md:p-10">
         <div className="flex-auto">
           <h1 className="text-6xl">
             Hello, I'm <br /> Jakaria Jishan
