@@ -36,27 +36,12 @@ export const Sidebar = () => {
           <h2 className="text-2xl my-2 text-stone-300">
             Full-stack Software Developer
           </h2>
-          <h3 className="text-xl mb-2 text-indigo-400  ">
+          <h3 className="text-xl mb-2 text-indigo-400">
             Building digital products, brands, and experience.
           </h3>
           <p className="text-md md:text-sm leading-7 my-5 text-[#777778]">
-            <span className="text-white"></span> Looking to specialize in an
-            exemplary and innovative approach to coding. As a software developer
-            at <span className="text-white">Microverse</span>, an online
-            training school, I code for over 8 hours a day, work with tight
-            deadlines, and quickly learn new languages. I also{" "}
-            <span className="text-white">
-              collaborate remotely with developers
-            </span>{" "}
-            from all around the world every day. Over the last several months, I
-            have completed{" "}
-            <span className="text-white">dozens of projects</span>, each
-            accompanied by its code, syntax, scope, and function.I have
-            developed more than 17 different projects using technologies such as{" "}
-            <span className="text-white">
-              React, Redux, Ruby on Rails, and PostgreSQL
-            </span>
-            . I have a solid knowledge of Data Structure and Algorithms.
+            Dynamic Software Engineer with 2 years of experience in web development. Proficient in HTML/CSS,
+            JavaScript, React/Redux, Ruby on Rails, Postgresql and more. Seeking full-time or part-time remote opportunities.
           </p>
         </div>
         <div className="flex-auto">
@@ -72,7 +57,7 @@ export const Sidebar = () => {
           <Profile />
         </div>
         <Link
-          to="https://drive.google.com/file/d/1BJfbWoH6ZhT9zyGYjOK7GFK_2Abibk1E/view?usp=sharing"
+          to="https://drive.google.com/file/d/1cFInLlfCc4Dg1Mbdr6heN3fgZlMDA8lk/view?usp=drive_link"
           target="_blank"
           class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-24 px-4 py-2 rounded-full text-xs flex items-center gap-2 uppercase"
         >

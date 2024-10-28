@@ -11,13 +11,13 @@ const SkillsList = () => {
           <span className="bg-purple-800 text-white">
             - Front-end development:
           </span>{" "}
-          ReactJS | ReduxJS | NextJS | JQuery | WordPress
+          JavaScript | React | Redux | Nextjs | Angular | HTML5 | CSS3 | Tailwind CSS | Material UI
           <br />
           <span className="bg-orange-500 text-white">
             - Back-end development:
           </span>{" "}
           NodeJS | ExpressJS | Ruby on Rails <br />{" "}
-          <span className="bg-red-700 text-white">- Test:</span> Rspec | Jest |{" "}
+          <span className="bg-red-700 text-white">- Test:</span> Rspec | Jest | Capybara
           <br /> <span className="bg-lime-600 text-white">- Databases:</span>{" "}
           Postgres | MongoDB | MySql <br />{" "}
           <span className="bg-teal-500 text-white">- Styling:</span>

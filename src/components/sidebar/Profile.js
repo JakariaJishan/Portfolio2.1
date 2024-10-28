@@ -35,9 +35,9 @@ export const Profile = () => {
         </div>
         <div>
           <Link
-            to="#"
+            to="jakariajishan006@gmail.com"
             onClick={(e) => {
-              window.location.href = "mailto:no-reply@example.com";
+              window.location.href = "mailto:jakariajishan006@gmail.com";
               e.preventDefault();
             }}
             target="_blank"
