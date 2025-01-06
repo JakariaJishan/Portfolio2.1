@@ -57,7 +57,7 @@ export const Sidebar = () => {
           <Profile />
         </div>
         <Link
-          to="https://drive.google.com/file/d/1cFInLlfCc4Dg1Mbdr6heN3fgZlMDA8lk/view?usp=drive_link"
+          to="https://www.dropbox.com/scl/fi/26fcepmvc0l2opwi5ypqa/resume-jakaria-personal-2.0.pdf?rlkey=rdy97tcs5z8jv98e6xigap86i&st=ptaiefhd&dl=0"
           target="_blank"
           class="transition ease-out bg-black hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-24 px-4 py-2 rounded-full text-xs flex items-center gap-2 uppercase"
         >
